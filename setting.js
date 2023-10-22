@@ -7,9 +7,9 @@ CREACOT : THOMZ
 const fs = require('fs')
 const chalk = require('chalk')
 
-global.owner = "6281542772467"
-global.namabot = "THOMZ-BOTZ"
-global.botname = "THOMZ-BOTZ"
+global.owner = "6282346841421"
+global.namabot = "CICI-BOTZ"
+global.botname = "CICI-BOTZ"
 global.autoJoin = false
 global.codeInvite = "FwtMxovJqW3Jj55x524hjT"
 global.thumb = fs.readFileSync("./thumb.png")
@@ -18,12 +18,12 @@ global.bugthomz = fs.readFileSync("./bugthomz.png")
 global.tekspushkon = ""
 global.tekspushkonv2 = ""
 global.packname = ""
-global.author = "Sticker By THOMZBOTZ"
+global.author = "Sticker By CYBOT"
 
-global.namastore = "THOMZ "
-global.nodana = "083169231840"
-global.nogopay = "083169231840"
-global.noovo = "083169231840"
+global.namastore = "CYBOT "
+global.nodana = "6666666"
+global.nogopay = "666666"
+global.noovo = "666666"
 
 global.domain = 'https://private.thomvelz.my.id' // Isi Domain Lu
 global.apikey = 'ptla_KoYJuL9VUVEDa4G3RF3YkwpYMAigGs2h70WXQfv4doB' // Isi Apikey Plta Lu
@@ -35,7 +35,7 @@ global.antilink = false
 
 const mess = {
    wait: "Tunggu Bang Lagi Saya Proses",
-   success: "sukses✅ Bang Thomz",
+   success: "sukses✅ Bang",
    save: "𝕊𝕌𝕂𝕊𝔼𝕊 𝕊𝔸𝕍𝔼 ℕ𝕆𝕄𝔼ℝ 𝕆𝕋𝕆𝕄𝔸𝕋𝕀𝕊",
    on: "Sudah Aktif", 
    off: "Sudah Off",

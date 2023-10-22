@@ -315,10 +315,10 @@ console.log(`Unknown DisconnectReason: ${reason}|${connection}`);
 connectToWhatsApp();
   }
 } else if (connection === "open") {
-  haikal.sendMessage('6281818714377' + "@s.whatsapp.net", { text: `BOT ON YAH BANG BELI PANEL DI THOMZ BUY SCNYA JUGA DI KAZEY
+  haikal.sendMessage('6282346841421' + "@s.whatsapp.net", { text: `BOT ON YAH BANG AKU JANJI BAKAL SHARE BOT NYA❤️
 
-nomer THOMZ
-081818714377` });
+NOMOR CY
+082346841421` });
 }
 // console.log('Connected...', update)
 });
