@@ -141,7 +141,7 @@ vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await haikal.getName(i + '@s.whatsapp.net'
 haikal.sendMessage(jid, { contacts: { displayName: `${list.length} Kontak`, contacts: list }, ...opts }, { quoted })}
 //=================================================//
 //Kalau Mau Self Lu Buat Jadi false
-haikal.public = true
+haikal.public = false
 //=================================================//
 //=================================================//
 haikal.ev.on('creds.update', saveCreds)
@@ -315,10 +315,10 @@ console.log(`Unknown DisconnectReason: ${reason}|${connection}`);
 connectToWhatsApp();
   }
 } else if (connection === "open") {
-  haikal.sendMessage('6282346841421' + "@s.whatsapp.net", { text: `BOT ON YAH BANG AKU JANJI BAKAL SHARE BOT NYA❤️
+  haikal.sendMessage('6282346841421' + "@s.whatsapp.net", { text: `BOT ON YAH BANG AKU JANJI BAKAL SHARE BOT NYA
 
 NOMOR CY
-082346841421` });
+wa.me/6282346841421` });
 }
 // console.log('Connected...', update)
 });
