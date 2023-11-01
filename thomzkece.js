@@ -1285,10 +1285,10 @@ if (/image/.test(mime)) {
 media = await haikal.downloadAndSaveMediaMessage(quoted)
 memk = await uptotelegra(media)
 await haikal.sendMessage(mem, { image: { url: memk }, caption: global.tekspushkon })
-await sleep(4000)
+await sleep(10000)
 } else {
 await haikal.sendMessage(mem, { text: global.tekspushkon })
-await sleep(4000)
+await sleep(10000)
 }
 }
 try {
@@ -1330,10 +1330,10 @@ if (/image/.test(mime)) {
 media = await haikal.downloadAndSaveMediaMessage(quoted)
 mem = await uptotelegra(media)
 await haikal.sendMessage(men, { image: { url: mem }, caption: global.tekspushkonv2 })
-await sleep(3000)
+await sleep(10000)
 } else {
 await haikal.sendMessage(men, { text: global.tekspushkonv2 })
-await sleep(3000)
+await sleep(10000)
 }
 }
 reply("File Kontak Sudah Di Kirim Lewat Chat Pribadi")
